@@ -2,7 +2,7 @@ import asyncio
 import sys
 import shlex
 
-RTMPS_URL = "rtmps://dc5-1.rtmp.t.me/s/2683771050:sjv1b-tEC_-_M6JOf8kvaw"
+RTMPS_URL = "rtmps://dc1-1.rtmp.t.me/s/2923805869:AZylB6CM-ZaiCc9UX0jinw"
 
 
 async def bash(cmd: str) -> tuple[str, str]:
@@ -72,3 +72,4 @@ if __name__ == "__main__":
         asyncio.run(stream_video(url, RTMPS_URL))
     except KeyboardInterrupt:
         pass
+
